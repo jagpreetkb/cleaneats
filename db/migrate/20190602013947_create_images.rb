@@ -5,6 +5,7 @@ class CreateImages < ActiveRecord::Migration[5.2]
       t.text :message
       t.integer :user_id
       t.integer :place_id
+      t.text :caption
       t.timestamps
     end
 

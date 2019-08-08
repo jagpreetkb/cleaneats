@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 2019_06_02_013947) do
     t.text "message"
     t.integer "user_id"
     t.integer "place_id"
+    t.text "caption"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["place_id"], name: "index_images_on_place_id"
