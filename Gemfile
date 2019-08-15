@@ -58,9 +58,6 @@ group :test do
   gem 'chromedriver-helper'
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 
 #adding new
 gem 'jquery-rails'
@@ -68,7 +65,6 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'simple_form'
 gem "font-awesome-rails"
 gem 'devise'
-gem "font-awesome-rails"
 gem "geocoder"
 gem "figaro"
 
