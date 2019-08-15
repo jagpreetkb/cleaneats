@@ -80,6 +80,9 @@
   </button>
 </div>
 
+  <% @place.images.each do |image| %>
+    <div> <%= image.caption %> </div>
+  <% end %>
 <div class="clear"></div>
 
 <div class="row">
