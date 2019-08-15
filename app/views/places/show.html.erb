@@ -64,7 +64,7 @@
         </div>
       <% end %>
 
-      <%= simple_form_for @image, url: '#' do |f| %>
+      <%= simple_form_for @image, url: place_images_path(@place) do |f| %>
         <%= f.input :caption %>
         <%= f.submit "Add an Image", class: 'btn btn-primary' %>
       <% end %>

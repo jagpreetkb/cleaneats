@@ -10,6 +10,6 @@ class ImagesController < ApplicationController
   private
 
   def image_params
-    params.require(:image).permit(:message)
+    params.require(:image).permit(:caption)
   end
 end
